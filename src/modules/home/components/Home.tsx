@@ -15,11 +15,11 @@ import EducationList from '@/modules/about/components/EducationList';
 const Home = () => {
   return (
     <>
-    
+     <BlogFeaturedSection />
       <Introduction />
       <Breakline className='mt-4 mb-4' />
      
-      <BlogFeaturedSection />
+     
       <BookingBtns/>
 {/*       
       <Breakline className='mt-8 mb-7' /> */}
@@ -32,9 +32,10 @@ const Home = () => {
       <CareerList />
     
       <Breakline className='my-8' />
-      <Services />
-      <Breakline className='my-8' />
       <EducationList />
+     
+      <Breakline className='my-8' />
+      <Services />
     </>
   );
 };

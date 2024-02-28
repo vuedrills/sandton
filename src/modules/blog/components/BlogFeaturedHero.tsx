@@ -81,7 +81,7 @@ const BlogFeaturedHero = ({ data }: BlogFeaturedProps) => {
               <Link
                 href={`/blog/${currentFeatured?.slug}?id=${currentFeatured?.id}`}
               >
-                <h3 className='flex w-fit text-2xl font-bold font-sora leading-normal relative group cursor-pointer'>
+                <h3 className='flex w-fit hidden sm:block text-2xl font-bold font-sora leading-normal relative group cursor-pointer'>
                   {currentFeatured?.title?.rendered}
                   <span className='absolute -bottom-0.5 left-0 w-full h-0.5 bg-white origin-left transform scale-x-0 transition-transform group-hover:scale-x-100'></span>
                 </h3>
