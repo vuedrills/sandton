@@ -18,10 +18,11 @@ const Introduction = () => {
 
       <p className='leading-[1.8] md:leading-loose mt-6 text-neutral-800 dark:text-neutral-300'>
       
-Passionate tutor studying towards a bachelor's degree in medicine with 6 years tutoring experience. Strong skills in science subjects, maths and english. I have worked with all age groups, students from diverse cultural backgrounds, and students with mild to severe disabilities including learning disabilities, emotional disorders, autism, and mental retardation. As a substitute teacher at Njelele High School, I taught Intergrated Science before it was replaced by Combined Science. 
+Passionate tutor studying towards a bachelor's degree in medicine with 6 years tutoring experience. Strong skills in science subjects, maths and english. I have worked with all age groups, students from diverse cultural backgrounds, and students with mild to severe disabilities.
       </p>
     </section>
   );
 };
 
 export default Introduction;
+// including learning disabilities, emotional disorders, autism, and mental retardation. As a substitute teacher at Njelele High School, I taught Intergrated Science before it was replaced by Combined Science. 

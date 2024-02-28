@@ -52,11 +52,11 @@ const BlogFeaturedHero = ({ data }: BlogFeaturedProps) => {
 
   return (
     <>
-      <div className='relative   md:rounded-xl overflow-hidden border dark:border-neutral-700 shadow-lg'>
+      <div className='relative md:rounded-xl overflow-hidden border dark:border-neutral-700 shadow-lg'>
       <div
-        className='duration-500 relative group'
+        className='duration-500 md:h-[200px] h-[100px] relative group'
         style={{
-          height: '200px',
+        
           overflow: 'hidden',
         }}
       >
