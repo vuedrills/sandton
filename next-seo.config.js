@@ -1,16 +1,16 @@
-const canonicalUrl = 'https://aulianza.id';
+const canonicalUrl = 'https://sandton.vercel.app';
 const metaImage =
-  'https://aulianza.s3.ap-southeast-1.amazonaws.com/images/public/aulianza-id.png';
+  '';
 const metaDescription =
-  'Seasoned Software Engineer especially in Frontend side, with a passion for creating pixel-perfect web experiences';
+  'Seasoned Tutor, with a passion for teaching science subjects';
 
 const defaultSEOConfig = {
-  defaultTitle: 'Ryan Aulia - Personal Website',
+  defaultTitle: 'Benhura - Personal Website',
   description: metaDescription,
   canonical: canonicalUrl,
   openGraph: {
     canonical: canonicalUrl,
-    title: 'Ryan Aulia - Personal Website',
+    title: 'Benhura - Personal Website',
     description: metaDescription,
     type: 'website',
     images: [
@@ -33,7 +33,7 @@ const defaultSEOConfig = {
         height: 900,
       },
     ],
-    site_name: 'aulianza.id',
+    site_name: 'sandton',
   },
   twitter: {
     handle: '@handle',
